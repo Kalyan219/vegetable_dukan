@@ -55,8 +55,8 @@ Start Frontend:
 cd frontend
 npm run dev
 4️⃣ Open in Browser
-http://localhost:5173  # Frontend
-http://localhost:3820  # Backend API
+http://localhost:3000  # Frontend
+http://localhost:5000  # Backend API
 API Endpoints
 Method	Endpoint	Description
 GET	/api/vegetables	Fetch all vegetables
