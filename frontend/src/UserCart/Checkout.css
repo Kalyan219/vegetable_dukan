@@ -1,0 +1,69 @@
+.empty {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: azure;
+}
+.user-cart-main {
+    background-color: rgb(245, 249, 253);
+    height: 100vh;
+}
+.list-items {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.checkout-list-css{
+    border: 1px solid black;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.image-check{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: "Rockwell";
+}
+.checkout-cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quantity-css{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bt-css {
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+}
+.qt-css{
+    border: 1px solid grey;
+    margin: 2px 2px;
+    height: 24px;
+    width: 24px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .checkout-list-css{
+        flex-direction: column;
+    }
+}
